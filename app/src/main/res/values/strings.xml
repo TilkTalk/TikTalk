@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Tik Talk</string>
+    <string name="client_id">132216531425-ft89cpo01lc92e9m82g8sfskagsiluio.apps.googleusercontent.com</string>
+    <string name="dontHaveAccount">Don\'t have account?</string>
+    <string name="signup">SIGN UP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signinText">Sign in to your registered account.</string>
+    <string name="uploadphototext">Take a minute to upload a profile photo.</string>
+    <string name="signUpText">Use your personal info to get registered.</string>
+    <string name="title_activity_dashboard"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="rates_prompt">Select a price per minute</string>
+    <string-array name="rates">
+        <item>$0.2</item>
+        <item>$0.3</item>
+        <item>$0.4</item>
+        <item>$0.5</item>
+        <item>$0.6</item>
+        <item>$0.7</item>
+    </string-array>
+    <string name="title_activity_seller_dashboard"></string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tiktalk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.Activities.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.Activities.Seller.SellerDashboardActivity"
+            android:label="@string/title_activity_seller_dashboard"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".UI.Activities.Buyer.BuyerDashBoardActivity"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".UI.Activities.Buyer.BuyerLoginActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".UI.Activities.Seller.SellerLoginActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".UI.Activities.Buyer.BuyerSignupActivity" />
+        <activity android:name=".UI.Activities.Seller.SellerSignupActivity" />
+        <activity android:name=".UI.Activities.Buyer.UploadPhotoActivity" />
+        <activity android:name=".UI.Activities.Seller.UploadPhotoActivity" />
+        <activity android:name=".UI.Activities.Buyer.BuyerProfileActivity"></activity>
+        <activity android:name=".UI.Activities.Seller.SellerProfileActivity"></activity>
+        <activity android:name=".UI.Activities.ResetPasswordActivity" />
+        <activity android:name=".UI.Activities.NumberVerificationActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".UI.Activities.Buyer.BuyerSettingsActivity"></activity>
+        <activity android:name=".UI.Activities.Seller.SellerSettingsActivity"></activity>
+        <activity android:name=".UI.Activities.Buyer.BuyerChatActivity"></activity>
+        <activity android:name=".UI.Activities.AllSellerActivity"></activity>
+        <activity
+            android:name=".UI.Activities.Buyer.BuyerRatingActivity"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".UI.Activities.Buyer.BuyerCallActivity"></activity>
+        <activity android:name=".UI.Activities.Seller.SellerCallActivity">
+
+        </activity>
+        <activity android:name=".UI.Activities.Seller.SellerCallDetailsActivity">
+
+        </activity>
+        <activity android:name=".UI.Activities.WithdrawActivity">
+
+        </activity>
+    </application>
+
+</manifest>

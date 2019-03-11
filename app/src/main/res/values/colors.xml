@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#5CA4FC</color>
+    <color name="colorAccent">#5CA4FC</color>
+    <color name="signupColor">#00BCD4</color>
+    <color name="themeColor">#5CA4FC</color>
+    <color name="textColor">#000</color>
+    <color name="lightGray">#DCDCDC</color>
+</resources>

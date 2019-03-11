@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "132216531425",
+    "firebase_url": "https://tiktalk-50e09.firebaseio.com",
+    "project_id": "tiktalk-50e09",
+    "storage_bucket": "tiktalk-50e09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132216531425:android:2132c329731f5dac",
+        "android_client_info": {
+          "package_name": "com.example.tiktalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132216531425-bipfvu806e6519f5h4ivt5cpcl3hr1be.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tiktalk",
+            "certificate_hash": "afa6d19e9d3dfd22a6b17154b605d51a381421e9"
+          }
+        },
+        {
+          "client_id": "132216531425-ft89cpo01lc92e9m82g8sfskagsiluio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbOSVnmw6kb4og0hJNUml0z5_W_LBQxEc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132216531425-ft89cpo01lc92e9m82g8sfskagsiluio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
